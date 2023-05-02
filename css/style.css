@@ -16,6 +16,7 @@
     max-width: 1000px;
     margin: 0 auto;
     justify-content: space-between;
+    align-items: center;
 
 }
 .row{
@@ -32,17 +33,14 @@
 }
 .col-left{
     width: 150px;
-    height: 50px;
-    background-color: aqua;
     margin-left: 10px;
     
 
 }
 .col-right{
-    width: 150px;
-    height: 50px;
-    background-color: rgb(255, 0, 119);
+    padding: 10px 0;
     margin-right: 10px;
+    color: white;
 
 }
 
@@ -122,10 +120,23 @@
 /* HEADER */
 header{
     background-color: rgb(35, 132, 223);
-    height: 50px;
 }
+#logo-img{
+    padding-top: 5px;
 
+}
+.col-right span{
+    margin-right: 10px;
 
+}
+#button-header{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+
+}
 
 /* FINE HEADER */
 
