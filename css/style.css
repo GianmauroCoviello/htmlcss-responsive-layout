@@ -309,8 +309,12 @@ header{
     text-align: center;
     font-size: 12px;
 }
-
-
+.content-col-right{
+    display: none;
+}
+.content-hamburger-menu{
+    display: block;
+}
 
 /* FINE MAIN */
 
@@ -490,6 +494,12 @@ footer{
         padding-top: 80px;
     
         
+    }
+    .content-hamburger-menu{
+        display: none;
+    }
+    .content-col-right{
+        display: block;
     }
          
 }
